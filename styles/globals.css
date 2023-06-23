@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  @apply flex justify-between items-center m-8;
+}
+
+.logo{
+  @apply h-12;
+}
+
+.avatar{
+  @apply h-16 w-16 rounded-full;
+}
+
+.container{
+  @apply flex flex-col m-8;
+}
+.username {
+  @apply font-PT font-extrabold text-3xl;
+}
+
+.follow-btn{
+  @apply rounded-full bg-red-600 font-PT text-white text-sm p-2 w-20 mt-2 hover:bg-black hover:text-white;
+}
+
+.photo{
+  @apply m-2;
+}
